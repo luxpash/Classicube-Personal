@@ -46,7 +46,7 @@ namespace MCGalaxy.Commands.Chatting
                     pokeType = args[1];
             }
             if (pokeType == null) { TryMessageAction(p, args[0], "λNICK &Spoked λTARGET", false); return; }
-            TryMessageAction(p, args[0], "λNICK $Sgave λTARGET &Sa " + pokeType + " poke", false);
+            TryMessageAction(p, args[0], "λNICK gave λTARGET &Sa " + pokeType + " poke", false);
         }
 
         // This is for when a player does /Help Poke
